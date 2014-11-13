@@ -1,11 +1,11 @@
-var appURL = "http://localhost/web/new2/";
+var appURL = "http://localhost/web/rhcom/";
 
 var mainMenuOptions = [
-	{label: "Home", url: "#"},
-	{label: "About me", url: "works.html"},
-	{label: "Projects", url: "#"},
-	{label: "Blog", url: "#"},
-	{label: "Contact", url: "#"}
+	{label: "Home", url: appURL, index: 1},
+	{label: "About me", url: appURL + "about/", index: 2},
+	{label: "Projects", url: appURL + "projects/", index: 3},
+	{label: "Blog", url: "#", index: 4},
+	{label: "Contact", url: "#", index: 5}
 ];
 
 var desc = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fringilla varius dui, in facilisis risus pulvinar bibendum. Fusce varius erat ac augue interdum, ut scelerisque risus fermentum.";

@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^([a-zA-Z0-9_-]+)[\/]+$ $1.html
+RewriteRule ^([a-zA-Z0-9_-]+)\/([a-zA-Z0-9_-]+)[\/]+$ $1.html?item=$2
+RewriteRule ^(images)\/([a-zA-Z0-9_-]+)\.(jpg|jpeg)$ images/$2.$3

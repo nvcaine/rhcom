@@ -1,17 +1,18 @@
 var sidebarItem =
 
 "{{#each items}}" +
-"<div class=\"media\">" +
+"<div class=\"media sidebar-item\">" +
 	"<a href=\"{{url}}\" class=\"pull-left\">" +
-		"<img src=\"{{image}}\" class=\"media-object\" width=\"40\">" +
+		"<img src=\"{{image}}\" class=\"media-object\" width=\"100\">" +
 	"</a>" +
+
 	"<div class=\"media-body\">" +
-		"<h4 class=\"media-heading\">{{title}}</h4>" +
+		"<div class=\"media-heading title\">{{title}}</div>" +
 		"<p>{{description}}</p>" +
 	"</div>" +
 
-	"<div class=\"pull-right\">" +
-		"<a href=\"#\">&raquo; Read More</a>" +
+	"<div class=\"read-more pull-right\">" +
+		"<a href=\"#\"><span class=\"index\">&raquo;</span> Read More</a>" +
 	"</div>" +
 "</div>" +
 "{{/each}}";

@@ -1,0 +1,93 @@
+.menu-item {
+	font-family: 'Arvil-sans';
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.menu-item .index, .read-more .index {
+	background-color: #8E4F18;
+	color: #FFFFFF;
+	padding: 2px 4px 2px 6px;
+	font-size: 15px;
+	transition: background-color .25s ease;
+}
+
+.menu-item a, .menu-item a:visited {
+	color: #959595 !important;
+	transition: color .25s ease;
+}
+
+.menu-item a:hover {
+	color: #FFFFFF !important;
+}
+
+.menu-item:hover .index, .read-more:hover .index {
+	background-color: #C5650E;
+}
+
+.read-more a, .read-more a:visited {
+	color: #DD8837;
+	transition: color .25s ease;
+}
+
+.read-more a:hover {
+	color: #F77D10;
+	text-decoration: none;
+}
+
+.read-more .index {
+	font-family: sans-serif;
+	margin-right: 5px;
+	padding: 0px 5px 1px 5px;
+}
+
+.project-item {
+	margin-bottom: 20px;
+}
+
+.project-item .info {
+	padding: 0 5px;
+}
+
+.project-item img {
+	border: 1px solid #D9D9D9;
+	padding: 5px;
+	width: 100%;
+}
+
+.project-item .title {
+	font-weight: bold;
+	padding: 10px 0 5px 0;
+}
+
+.project-item .description {
+	text-align: justify;
+	font-size: 13px;
+}
+
+.sidebar-item {
+	border-bottom: 1px dotted #EDEDED;
+	font-size: 12px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.project-item .read-more, .sidebar-item .read-more {
+	font-family: 'Arvil-sans';
+	font-size: 17px;
+}
+
+.sidebar-item .title {
+	font-weight: bold;
+}
+
+.sidebar-item img {
+	border: 1px solid #D9D9D9;
+	margin-right: 20px;
+	padding: 5px;
+	width: 100px;
+}
+
+.read-more {
+	margin-right: 10px;
+}
