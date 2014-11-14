@@ -1,6 +1,6 @@
 var header =
 
-"<div id=\"heading-wrapper\">" +
+"<div id=\"heading-wrapper\" style=\"position:relative;\">" +
 	"<div class=\"container\">" +
 		"<div id=\"main-heading\">" +
 			"Romuald Halasz&nbsp;&nbsp;"+

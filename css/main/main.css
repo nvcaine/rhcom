@@ -3,6 +3,18 @@ body {
 	color: #515151;
 }
 
+#body-background {
+	background-image: url(../../assets/images/codebg.jpg);
+	background-size: cover;
+	bottom: 0;
+	left: 0;
+	opacity: 0.75;
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #FFFFFF;
+}
+
 #menu-nav {
 	margin-bottom: 0;
 	background-color: #444444;
@@ -56,4 +68,5 @@ footer {
 	font-family: 'Arvil-sans';
 	font-size: 40px;
 	margin: 30px 0 20px 0;
+	text-align: center;
 }
