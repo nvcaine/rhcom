@@ -53,10 +53,6 @@ body {
 	line-height: 40px;
 }
 
-#main-container {
-	/*padding-top: 20px;*/
-}
-
 footer {
 	background-color: #444444;
 	border-top: 1px solid #E48C3C;
@@ -69,6 +65,6 @@ footer {
 	color: #999999;
 	font-family: 'Arvil-sans';
 	font-size: 40px;
-	margin: 30px 0 20px 0;
+	margin: 45px 0 20px 0;
 	text-align: center;
 }
