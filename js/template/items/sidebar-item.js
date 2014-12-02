@@ -5,7 +5,7 @@ var sidebarItem =
 "<div class=\"media sidebar-item col-sm-4\">" +
 	//"<div>" +
 	"<a href=\"{{url}}\">" +
-		"<img src=\"{{image}}\" class=\"media-object\" width=\"100\">" +
+		"<img src=\"{{image}}\" class=\"media-object\">" +
 	"</a>" +
 	//"</div>" +
 
