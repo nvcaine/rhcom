@@ -1,11 +1,13 @@
 var menu =
 
-"<nav id=\"menu-nav\" class=\"navbar navbar-default dark-grey navbar-fixed-top\" role=\"navigation\">" +
+"<nav id=\"menu-nav\" class=\"navbar navbar-default navbar-fixed-top\" role=\"navigation\">" +
 
 	"<div class=\"container\">" +
-		"<span id=\"main-heading\" style=\"font-family:'Arvil-sans'; line-height: 100px;\">" +
-			"Romuald Halasz" +
-		"</span>" +
+		"<div class=\"pull-left\">" +
+			"<span id=\"main-heading\" style=\"font-family:'Arvil-sans';line-height: 100px;\">" +
+				"Romuald Halasz" +
+			"</span>" +
+		"</div>" +
 
 		"<div class=\"navbar-header pull-right\">" +
 			"<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#nav-menu\">" +
@@ -16,7 +18,10 @@ var menu =
 			"</button>" +
 		"</div>" +
 
-		"<div id=\"nav-menu\" class=\"collapse navbar-nav navbar-collapse navbar-right\">" +
+		"<div class=\"clearfix visible-xs\"></div>" +
+
+		"<div id=\"nav-menu\" class=\"navbar-nav navbar-collapse collapse navbar-right\">" +
+			"<div style=\"height: 25px;\" class=\"hidden-xs\"></div>" +
 			"<ul class=\"nav navbar-nav\">" +
 				"{{#each options}}" +
 				"<li class=\"menu-item\">" +

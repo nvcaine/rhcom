@@ -4,24 +4,12 @@ body {
 	margin-top: 100px;
 }
 
-#body-background {
-	/*background-image: url(../../assets/images/codebg.jpg);*/
-	background-color: #555555;
-	background-size: cover;
-	bottom: 0;
-	left: 0;
-	/*opacity: 0.5;*/
-	position: absolute;
-	right: 0;
-	top: 0;
-	color: #FFFFFF;
-}
-
 #menu-nav {
 	margin-bottom: 0;
-	background-color: #444444;
+	background-color: #505050;
 	border: none;
 	border-radius: 0;
+	border-bottom: 1px solid #E48C3C;
 }
 
 #heading-wrapper {
@@ -47,7 +35,7 @@ body {
 }
 
 footer {
-	background-color: #444444;
+	background-color: #555555;
 	border-top: 1px solid #E48C3C;
 	color: #A0A0A0;
 	margin-top: 50px;
