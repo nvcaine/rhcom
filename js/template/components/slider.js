@@ -12,7 +12,7 @@ var slider =
 		"<div class=\"carousel-caption\">" +
 			"<div class=\"container\">" +
 				"<div class=\"row\">" +
-					"<div class=\"col-sm-4 col-sm-offset-1\">" +
+					"<div class=\"col-md-4 col-md-offset-1 col-sm-5\">" +
 						"<img src=\"https://developers.google.com/tv/web/images/hybrid_web_app_main_ui.png\" alt=\"\" class=\"slider-img\">" +
 					"</div>" +
 					"<div class=\"col-sm-6 col-sm-offset-1\">" +
