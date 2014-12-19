@@ -8,68 +8,30 @@ var slider =
 
 "<div class=\"carousel-inner\" role=\"listbox\">" +
 
-	"<div class=\"item active\">" +
-		"<div class=\"carousel-caption\">" +
-			"<div class=\"container\">" +
-				"<div class=\"row\">" +
-					"<div class=\"col-md-4 col-md-offset-1 col-sm-5\">" +
-						"<img src=\"https://developers.google.com/tv/web/images/hybrid_web_app_main_ui.png\" alt=\"\" class=\"slider-img\">" +
-					"</div>" +
-					"<div class=\"col-sm-6 col-sm-offset-1\">" +
-						"<h1>Web Applications</h1>" +
-						"<p>" +
-							"Websites and HTML/JS apps that run in the browser." +
-						"</p>" +
-						"<p>" +
-							"<a class=\"btn btn-lg btn-primary\" href=\"#\" role=\"button\">See more</a>" +
-						"</p>" +
-					"</div>" +
-				"</div>" +
-			"</div>" +
-		"</div>" +
-	"</div>" +
-
+	"{{#each slides}}" +
 	"<div class=\"item\">" +
 		"<div class=\"carousel-caption\">" +
 			"<div class=\"container\">" +
 				"<div class=\"row\">" +
-					"<div class=\"col-sm-4 col-sm-offset-1\">" +
-						"<img src=\"https://developers.google.com/tv/web/images/hybrid_web_app_main_ui.png\" alt=\"\" class=\"slider-img\">" +
+					"<div class=\"col-md-4 col-md-offset-1 col-sm-5 image-container\">" +
+						"<img src=\"{{image}}\" alt=\"{{alt}}\" class=\"slider-img\">" +
 					"</div>" +
 					"<div class=\"col-sm-6 col-sm-offset-1\">" +
-						"<h1>Software Development</h1>" +
+						"<br class=\"hidden-xs\">" +
+						"<h1>{{heading}}</h1>" +
 						"<p>" +
-							"When the line between classic Software Development and Web Apps is fading..." +
+							"{{{text}}}" +
 						"</p>" +
 						"<p>" +
-							"<a class=\"btn btn-lg btn-primary\" href=\"#\" role=\"button\">See more</a>" +
+							"<a class=\"btn btn-lg btn-primary\" href=\"#\" role=\"button\">{{label}}</a>" +
 						"</p>" +
 					"</div>" +
 				"</div>" +
 			"</div>" +
 		"</div>" +
 	"</div>" +
+	"{{/each}}" +
 
-	"<div class=\"item\">" +
-		"<div class=\"carousel-caption\">" +
-			"<div class=\"container\">" +
-				"<div class=\"row\">" +
-					"<div class=\"col-sm-4 col-sm-offset-1\">" +
-						"<img src=\"https://developers.google.com/tv/web/images/hybrid_web_app_main_ui.png\" alt=\"\" class=\"slider-img\">" +
-					"</div>" +
-					"<div class=\"col-sm-6 col-sm-offset-1\">" +
-						"<h1>Games</h1>" +
-						"<p>" +
-							"While being fun to make and to play, games are their own niche." +
-						"</p>" +
-						"<p>" +
-							"<a class=\"btn btn-lg btn-primary\" href=\"#\" role=\"button\">See more</a>" +
-						"</p>" +
-					"</div>" +
-				"</div>" +
-			"</div>" +
-		"</div>" +
-	"</div>" +
 "</div>"/* +
 
 "<a class=\"left carousel-control\" href=\"#myCarousel\" role=\"button\" data-slide=\"prev\">" +

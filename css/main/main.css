@@ -1,7 +1,7 @@
 body {
 	font-family: Tahoma, sans-serif;
 	color: #515151;
-	margin-top: 100px;
+	/*margin-top: 100px;*/
 }
 
 #menu-nav {
@@ -10,6 +10,10 @@ body {
 	border: none;
 	border-radius: 0;
 	border-bottom: 1px solid #E48C3C;
+}
+
+#nav-menu  li  a {
+	padding: 10px !important;
 }
 
 #heading-wrapper {

@@ -1,6 +1,6 @@
 var menu =
 
-"<nav id=\"menu-nav\" class=\"navbar navbar-default navbar-fixed-top\" role=\"navigation\">" +
+"<nav id=\"menu-nav\" class=\"navbar navbar-default\" role=\"navigation\">" +
 
 	"<div class=\"container\">" +
 		"<div class=\"pull-left\">" +
