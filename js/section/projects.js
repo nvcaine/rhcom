@@ -19,6 +19,10 @@ var projects = [
 		title: "Morbi et ante",
 		description: "Nullam eu pellentesque mauris. Nullam a auctor quam, eu mollis felis.",
 		image: "http://romualdhalasz.com/new/img/prj/code2.png"
+	}, {
+		title: "Morbi et ante",
+		description: "Nullam eu pellentesque mauris. Nullam a auctor quam, eu mollis felis.",
+		image: "http://romualdhalasz.com/new/img/prj/code2.png"
 	}
 ];
 

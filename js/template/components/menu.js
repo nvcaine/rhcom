@@ -10,7 +10,7 @@ var menu =
 		"</div>" +
 
 		"<div class=\"navbar-header pull-right\">" +
-			"<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#nav-menu\">" +
+			"<button type=\"button menu-button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#nav-menu\">" +
 				"<span class=\"sr-only\">Toggle navigation</span>" +
 				"<span class=\"icon-bar\"></span>" +
 				"<span class=\"icon-bar\"></span>" +
