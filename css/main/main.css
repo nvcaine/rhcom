@@ -12,13 +12,17 @@ body {
 	border-bottom: 1px solid #E48C3C;
 }
 
-#nav-menu  li  a {
+#nav-menu li a {
 	padding: 10px 15px !important;
 }
 
 #heading-wrapper {
 	font-family: 'Arvil-sans';
 	padding: 25px 0;
+}
+
+#menu-nav a:hover {
+	text-decoration: none;
 }
 
 #main-heading {

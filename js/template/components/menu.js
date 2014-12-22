@@ -4,9 +4,11 @@ var menu =
 
 	"<div class=\"container\">" +
 		"<div class=\"pull-left\">" +
+			"<a href=\"" + appURL + "\">" +
 			"<span id=\"main-heading\" style=\"font-family:'Arvil-sans';line-height: 100px;\">" +
 				"Romuald Halasz" +
 			"</span>" +
+			"</a>" +
 		"</div>" +
 
 		"<div class=\"navbar-header pull-right\">" +

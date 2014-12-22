@@ -5,7 +5,7 @@ $( function() {
 
 	$("#sidebar").html(sidebarItemTemplate({items: sidebarItems}));
 
-	$(window).scroll( function() {
+	/*$(window).scroll( function() {
 		if($(window).scrollTop() > 100)
-	});
+	});*/
 })
