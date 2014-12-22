@@ -21,7 +21,7 @@ var menu =
 		"<div class=\"clearfix visible-xs\"></div>" +
 
 		"<div id=\"nav-menu\" class=\"navbar-nav navbar-collapse collapse navbar-right\">" +
-			"<div style=\"height: 25px;\" class=\"hidden-xs\"></div>" +
+			"<div style=\"height: 30px;\" class=\"hidden-xs\"></div>" +
 			"<ul class=\"nav navbar-nav\">" +
 				"{{#each options}}" +
 				"<li class=\"menu-item\">" +

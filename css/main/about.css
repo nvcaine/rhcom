@@ -1,0 +1,22 @@
+.about img {
+	width: 100%;
+	padding: 20px 50px;
+}
+
+.about p {
+	text-align: center;
+}
+
+.about .title {
+	font-family: "Arvil-sans";
+	font-size: 30px;
+}
+
+p {
+	margin:0 !important;
+}
+
+#main-container .step p {
+	text-align: justify;
+	padding: 20px 0;
+}
