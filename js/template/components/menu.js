@@ -4,9 +4,9 @@ var menu =
 
 	'<div class="container">' +
 		'<div class="pull-left">' +
-			'<span id="main-heading">' +
-				'Romuald Halasz' +
-			'</span>' +
+			'<a href="' + appURL + '">' +
+				'<span id="main-heading">Romuald Halasz</span>' +
+			'</a>' +
 		'</div>' +
 
 		'<div class="navbar-header pull-right">' +
