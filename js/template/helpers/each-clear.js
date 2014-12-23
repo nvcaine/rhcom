@@ -1,4 +1,4 @@
-Handlebars.registerHelper("each-clear", function(context, options) {
+Handlebars.registerHelper('each-clear', function(context, options) {
 
 	if(context.length == 0)
 		return;
@@ -8,13 +8,13 @@ Handlebars.registerHelper("each-clear", function(context, options) {
 	for(var i = 1; i < context.length; i++) {
 
 		if(i % 2 == 0)
-			result += "<div class=\"clearfix visible-xs\"></div>";
+			result += '<div class="clearfix visible-xs"></div>';
 
 		if(i % 3 == 0)
-			result += "<div class=\"clearfix visible-sm\"></div>";
+			result += '<div class="clearfix visible-sm"></div>';
 
 		if(i % 4 == 0)
-			result += "<div class=\"clearfix visible-md\"></div>";
+			result += '<div class="clearfix visible-md"></div>';
 
 		result += options.fn(context[i], {data: context[i]});
 	}
