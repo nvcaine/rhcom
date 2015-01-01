@@ -36,6 +36,7 @@
 /* Carousel base class */
 .carousel {
   height: 300px;
+  background-color: #797979;
   /*margin-bottom: 60px;*/
 }
 /* Since positioning the image, we need to help out the caption */
@@ -83,9 +84,25 @@
 
 .slider-img {
   width: 100%;
-  /*border: 1px solid #DDDDDD;
-  background-color: #FFFFFF;
-  padding: 5px;*/
+}
+
+.slider-text, .slider-img {
+  visibility: hidden;
+}
+
+.active .slider-text, .active .slider-img {
+  visibility: visible !important;
+}
+
+.slider-text, .slider-img {
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  -ms-animation-duration: 3s;
+  -webkit-animation-delay: .5s;
+  -moz-animation-delay: .5s;
+  -o-animation-delay: .5s;
+  -ms-animation-delay: .5s;
 }
 
 /* MARKETING CONTENT

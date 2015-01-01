@@ -76,7 +76,9 @@
 	text-align: center;
 }
 
-.project-item .read-more, .sidebar-item .read-more {
+.project-item .read-more,
+.sidebar-item .read-more,
+.feature-item .read-more {
 	font-family: 'Arvil-sans';
 	font-size: 17px;
 }

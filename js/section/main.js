@@ -12,4 +12,4 @@ $( function() {
 			$('#menu-nav').removeClass('narrow');
 		}
 	});
-})
+});

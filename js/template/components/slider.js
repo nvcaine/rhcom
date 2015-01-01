@@ -9,14 +9,14 @@ var slider =
 '<div class="carousel-inner" role="listbox">' +
 
 	'{{#each slides}}' +
-	'<div class="item">' +
+	'<div class="item" style="background-color:{{color}}">' +
 		'<div class="carousel-caption">' +
 			'<div class="container">' +
 				'<div class="row">' +
 					'<div class="col-md-4 col-md-offset-1 col-sm-5 image-container">' +
-						'<img src="{{image}}" alt="{{alt}}" class="slider-img">' +
+						'<img src="{{image}}" alt="{{alt}}" class="slider-img animated bounceInDown">' + // animated bounceInDown
 					'</div>' +
-					'<div class="col-sm-6 col-sm-offset-1">' +
+					'<div class="col-sm-6 col-sm-offset-1 slider-text animated fadeInRight">' +
 						'<br class="hidden-xs">' +
 						'<h1>{{heading}}</h1>' +
 						'<p>' +
