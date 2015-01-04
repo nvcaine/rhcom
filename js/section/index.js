@@ -28,11 +28,11 @@ var sliderData = [
 
 var features = [
 	{
-		imgURL: 'https://developers.google.com/tv/web/images/hybrid_web_app_main_ui.png',
+		imgURL: appURL + 'assets/images/anca-logo.jpg',
 		title: 'Anca\'s website v2',
 		paragraphs: [
-			{text: 'Quisque neque tellus, convallis et tempus et, vulputate at nisi. Donec risus purus, egestas et mauris et, efficitur luctus dolor. Maecenas aliquet lorem risus, nec rutrum metus efficitur varius.'},
-			{text: 'Praesent a lorem magna. Duis quam ante, elementum non ipsum in, dignissim luctus ante. Duis tristique facilisis lectus eget hendrerit.'},
+			{text: 'A client redesign for an existent application. Since the data is managed by a JSON server, the client can be changed without affecting it.'},
+			{text: 'The initial version used media queries for a responsive layout, but the second one uses Bootstrap 3 for layout, and Handlebars for templating.'},
 		]
 	}
 ];
