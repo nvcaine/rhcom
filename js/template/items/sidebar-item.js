@@ -15,7 +15,7 @@ var sidebarItem =
 	'</div>' +
 
 	'<div class="read-more">' +
-		'<a href="#"><span class="index">&raquo;</span> Read More</a>' +
+		'<a href="{{url}}"><span class="index">&raquo;</span> Read More</a>' +
 	'</div>' +
 '</div>' +
 '{{/each}}' +
