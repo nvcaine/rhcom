@@ -23,7 +23,10 @@ var slider =
 							'{{{text}}}' +
 						'</p>' +
 						'<p>' +
-							'<a class="btn btn-lg btn-primary" href="#" role="button">{{label}}</a>' +
+							//'<a class="btn btn-lg btn-primary" href="#" role="button">{{label}}</a>' +
+							'<a href="' + appURL + 'projects/" class="btn btn-{{btn_class}}">' +
+								'<span class="index">&raquo;</span>&nbsp;{{label}}' +
+							'</a>' +
 						'</p>' +
 					'</div>' +
 				'</div>' +

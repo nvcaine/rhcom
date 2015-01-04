@@ -14,7 +14,7 @@ Handlebars.registerHelper('each-clear', function(context, options) {
 			result += '<div class="clearfix visible-sm"></div>';
 
 		if(i % 4 == 0)
-			result += '<div class="clearfix visible-md"></div>';
+			result += '<div class="clearfix visible-md visible-lg"></div>';
 
 		result += options.fn(context[i], {data: context[i]});
 	}

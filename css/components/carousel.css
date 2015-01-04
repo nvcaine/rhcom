@@ -105,6 +105,12 @@
   -ms-animation-delay: .5s;
 }
 
+.slider-text .btn {
+  border-radius: 0;
+  font-size: 18px;
+}
+
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 

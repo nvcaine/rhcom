@@ -27,6 +27,7 @@
 
 .read-more a, .read-more a:visited {
 	color: #DD8837;
+	font-size: 20px;
 	transition: color .25s ease;
 }
 

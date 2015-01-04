@@ -9,7 +9,6 @@ var projects =
 	'<div class="info">' +
 		'<div class="title">{{title}}</div>' +
 
-		//'<div class="description">{{description}}</div>' +
 		'<p class="description">{{description}}</p>' +
 
 		'<div class="pull-right read-more">' +

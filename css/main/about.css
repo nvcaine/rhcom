@@ -1,9 +1,10 @@
 .about img {
 	width: 100%;
+	max-width: 300px;
 	padding: 20px 50px;
 }
 
-.about p {
+.about div {
 	text-align: center;
 }
 

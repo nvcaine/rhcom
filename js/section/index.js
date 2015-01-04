@@ -5,6 +5,7 @@ var sliderData = [
 		heading: 'Web Applications',
 		text: 'Websites and HTML/JS apps that run in the browser.',
 		label: 'See more',
+		btn_class: 'warning',
 		color: 'rgba(241, 103, 69, 0.75)'//'#F16745'
 	}, {
 		alt: 'Software',
@@ -12,6 +13,7 @@ var sliderData = [
 		heading: 'Software Development',
 		text: 'When the line between classic Software Development and Web Apps is fading&hellip;',
 		label: 'See more',
+		btn_class: 'success',
 		color: 'rgba(123, 200, 164, 0.75)'//'#7BC8A4',
 	}, {
 		alt: 'Games',
@@ -19,6 +21,7 @@ var sliderData = [
 		heading: 'Games',
 		text: 'While being fun to make and to play, games are their own niche.',
 		label: 'See more',
+		btn_class: 'primary',
 		color: 'rgba(76, 195, 217, 0.75)' //'rgba()'//'#4CC3D9'
 	}
 ];
