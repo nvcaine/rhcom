@@ -1,7 +1,7 @@
 var panels = [
-	{selector: 'web', heading: 'Web Applications'},
-	{selector: 'soft', heading: 'Software Development'},
-	{selector: 'game', heading: 'Games'}
+	{selector: 'web', heading: 'Web Applications', items: []},
+	{selector: 'soft', heading: 'Software Development', items: []},
+	{selector: 'game', heading: 'Games', items: []}
 ];
 
 $( function() {
@@ -15,5 +15,24 @@ $( function() {
 		});
 	});
 
-	$('#accordion').html(sidebarTemplate({panels: panels}));
+	$.get(appURL + 'assets/json/projects.json', {}, function(data) {
+
+		$.each(data, function(index, item) {
+
+			var project = item;
+
+			$.each(panels, function(index, panel) {
+
+				if(project.type.toLowerCase() == panel.selector)
+					panel.items.push(project);
+			});
+		});
+
+		$('#accordion').html(sidebarTemplate({panels: panels}));
+		/*$('#web-heading, #soft-heading, #game-heading').on('shown.bs.collapse', function(e) {
+			var toggleSigns = $('#accordion').find('.toggle');
+			toggleSigns.removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down')
+			$(e.currentTarget).find('.toggle').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+		});*/
+	});
 });

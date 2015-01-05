@@ -30,7 +30,7 @@
 		"type": "WEB",
 		"slug": "lion_wing_tsun"
 	}, {
-		"title": "Conway\"s Game of Life",
+		"title": "Conway's Game of Life",
 		"description": "<p>A Flash version of the popular game. More a simulator, the game aims to illustrate the concept of emergent complexity from very simple rules. You can see it here: <a href=\"http://romualdhalasz.com/flash/life/\" target=\"_blank\">demo</a>.</p><p>Here is the Wikipedia entry, for a more detailed description: <a href=\"http://en.wikipedia.org/wiki/Conway's_Game_of_Life\" target=\"_blank\">Conway's_Game_of_Life</a></p><p>For a oh-so-very detailed description of the implementation and algorithms used, please see this entry: <a href=\"http://romihalasz.blogspot.ro/2011/01/conways-game-of-life-more-natural.html\" target=\"_blank\">Conway implementation</a></p>",
 		"image": "http://romualdhalasz.com/new/img/prj/conway.png",
 		"type": "GAME",

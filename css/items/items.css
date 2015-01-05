@@ -100,3 +100,42 @@
 .read-more {
 	margin-right: 10px;
 }
+
+#web-container .read-more a,
+#web-container .read-more a:visited {
+	color: #D26B51;
+}
+
+#soft-container .read-more a,
+#soft-container .read-more a:visited {
+	color: #7BC8A4;
+}
+
+#game-container .read-more a,
+#game-container .read-more a:visited {
+	color: #4CC3D9;
+}
+
+#web-container .index {
+	background-color: #D26B51;
+}
+
+#web-container .read-more:hover .index {
+	background-color: #F16745;
+}
+
+#soft-container .index {
+	background-color: #4EB283;
+}
+
+#soft-container .read-more:hover .index {
+	background-color: #7BC8A4;
+}
+
+#game-container .index {
+	background-color: #57B0C0;
+}
+
+#game-container .read-more:hover .index {
+	background-color: #4CC3D9;
+}

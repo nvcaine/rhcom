@@ -30,7 +30,7 @@
 		"type": "WEB",
 		"slug": "lion_wing_tsun"
 	}, {
-		"title": "Conway\"s Game of Life",
+		"title": "Conway's Game of Life",
 		"description": "A Flex implementation of the popular game.",
 		"image": "http://romualdhalasz.com/new/img/prj/conway.png",
 		"type": "GAME",

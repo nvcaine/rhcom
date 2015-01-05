@@ -1,3 +1,41 @@
 #project-view .heading {
 	text-align: left;
 }
+
+.panel-title a:hover, .panel-title a:focus {
+	text-decoration: none;
+}
+
+.view-panel {
+	border-radius: 0 !important;
+}
+
+.panel-group .view-panel + .view-panel {
+	margin-top: 0;
+}
+
+.view-panel .panel-heading {
+	font-family: 'Arvil-sans', sans-serif;
+	border-radius: 0;
+}
+
+.panel-heading a, .panel-heading a:visited {
+	font-size: 30px;
+	color: #4F4F4F;
+}
+
+.panel-heading a .toggle {
+	font-size: 15px;
+}
+
+#web-heading {
+	background-color: #F16745; /*#D26B51;*/
+}
+
+#soft-heading {
+	background-color: #7BC8A4; /*#7BC8A4;*/
+}
+
+#game-heading {
+	background-color: #4CC3D9; /*#4CC3D9;*/
+}
