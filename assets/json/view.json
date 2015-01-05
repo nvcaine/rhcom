@@ -1,0 +1,70 @@
+[
+	{
+		"title": "Simple Client Demo",
+		"description": "<p>This app illustrates how to implement an application, using my PHP framework.</p><p>The framework was developed while working on a portfolio application, which you can see <a href=\"http://romualdhalasz.com/new/project/Anca_Cernoschi_Photography/\" target=\"_blank\">###here###</a>. It is a simple MVC framework, and uses <a href=\"http://www.smarty.net/\" target=\"_blank\">Smarty 3</a> for templating, and <a href=\"http://getbootstrap.com/\" target=\"_blank\">Bootstrap</a>, in order to provide a flexible, mobile-friendly layout.</p><p>You can see it in action here: <a href=\"http://romualdhalasz.com/php/client-demo/\" target=\"_blank\">Simple Client</a><br />Finally, the source code can be seen here: <a href=\"https://github.com/nvcaine/simple-client\" target=\"_blank\">Github repo</a></p><p>The github repo contains the 'app' folder which contains the application files, as well as the framework files.</p>",
+		"image": "http://romualdhalasz.com/new/img/prj/code2.png",
+		"type": "WEB",
+		"slug": "simple_client"
+	},{
+		"title": "JSON Server Demo",
+		"description": "<p>This app illustrates how to implement a server application.</p><p>It is built on a separate version of my PHP framework, designed to facilitate a persistence layer connection and outputing JSON data. This version, doesn't contain view-specific logic, but as opposed to the client version, it has a PDO wrapper, for handling database logic.</p><p>It is built with the REST principles in mind, even though at the moment, it only handles incoming GET requests. Future versions will support create/update/delete operations as well.</p><p>Here is a demo: <a href=\"http://romualdhalasz.com/php/server-demo/\" target=\"_blank\">JSON Server</a></p><p>It consists of two sections, one that returns posts information, and one displaying users information.<br />- posts data URL: <a href=\"http://romualdhalasz.com/php/server-demo/posts.json\" target=\"_blank\">Posts</a><br />- users data URL: <a href=\"http://romualdhalasz.com/php/server-demo/users.json\" target=\"_blank\">Users</a></p><p>And here is the source code: <a href=\"https://github.com/nvcaine/json-server\" target=\"_blank\">Github Repo</a><br />- the 'app' folder represents the application source code<br />- the 'framework' folder contains the code of the framework</p>",
+		"image": "http://romualdhalasz.com/new/img/prj/code.png",
+		"type": "WEB",
+		"slug": "json_server"
+	},{
+		"title": "Anca Cernoschi Photography",
+		"description": "<p>While developing my PHP framework, I also developed a portfolio app for one of my friends, who is a very talented photographer.</p><p>While initially I wanted to learn about HTML5, CSS3 and media queries, I ended up learning a lot more. Besides the website, I developed a simple PHP MVC framework, which allows the developer to quickly specify the main states (or sections) of the app and provide a quick and simple way to implement each section's controller and view.</p><p>Another framework feature is the ability to autoload referenced classes. This allows the user to delegate the responsibility of managing class files and packages to the framework itself, so no files need be included in the standard PHP way.</p><p>You can see the finished client here: <a href=\"http://ancacernoschi.ro/\" target=\"_blank\">Anca Cernoschi Photography</a></p><p>Finally, experimenting with different PaaS providers (like Heroku, Nodejitsu etc.), I settled on <a href=\"https://www.appfog.com/\" target=\"_blank\">Appfog</a>. Like other platform providers, the developer uses a CLI tool to deploy an application to the Appfog server instances.</p><p>Below, you can see a diagram which details the differnt parts of the project. The client is hosted on my friend's FTP server, and the three other parts are deployed on Appfog. The server-side of the application is distributed among three modules:</p><p>The first part is the actual JSON server, which receives GET requests. The data is stored by having a MySQL service bound to it. Finally, the data is managed using a PHPMyAdmin app, that has the same MySQL service bound to it.</p><p>This is a bird's-eye view of the project. You can see the client app on the left, and the three parts of the server-side application on the right, running on Appfog.</p><img src=\"http://romualdhalasz.com/new/img/ancagallery.png\" alt=\"\" width=\"100%\" />",
+		"image": "http://romualdhalasz.com/new/img/prj/anca.jpg",
+		"type": "WEB",
+		"slug": "anca_cernoschi"
+	},{
+		"title": "Anca Cernoschi Photography 2",
+		"description": "<p>About two years later from the initial release of my friend's website, I started using other tools. This time, rather than using PHP on the client, I decided to go with a more flexible implementation of the system.</p><p>Since the server is fully separated from the client, the technologies used to develop either one, can vary. This allowed me to implement a client based exclusively on HTML/CSS and jQuery. This results in a lighter client.</p><p>The only consideration is when the client and server are hosted on different domains. It is a well-known fact that JavaScript requests are subject to the same-origin cross-domain security restriction policy. This means we can't send cross-domain requests using Javascript. One solution is to use a PHP proxy that mediates client requests and server answers.</p><p>So, this version has a similar approach to the previous one, in regards to client/server sepparation. The main difference consists in a further sepparation between the actual client, and communicating part, by using a PHP proxy to handle incoming and outgoing communications.</p><p>Another important difference is that this version is built using <a href=\"http://getbootstrap.com/\" target=\"_blank\">Bootstrap 3.0</a> for creating the responsive layout, and <a href=\"http://handlebarsjs.com/\" target=\"_blank\">Handlebars 2</a> for templating.</p><p>You can see the updated verions here: <a href=\"http://romualdhalasz.com/html/anca-bs/\">Anca Cernoschi Photography 2</a></p>",
+		"image": "http://romualdhalasz.com/new/img/prj/anca2.png",
+		"type": "WEB",
+		"slug": "anca_client"
+	},{
+		"title": "Lion Wing Tsun Club",
+		"description": "<p>About a year ago I started practicing Wing Tsun at a local martial arts club.<br /> I offered to update the club's website and here is the latest version. Currently, it is still in development.</p><p>It is implemented using the PHP framework. Also, it uses Bootstrap, in order to have a flexible layout and support mobile devices as well.</p><p>You can see the project here: <a href=\"http://romualdhalasz.com/html/wt/\" target=\"_blank\">Lion Wing Tsun</a></p>",
+		"image": "http://romualdhalasz.com/new/img/prj/logowt.png",
+		"type": "WEB",
+		"slug": "lion_wing_tsun"
+	}, {
+		"title": "Conway\"s Game of Life",
+		"description": "<p>A Flash version of the popular game. More a simulator, the game aims to illustrate the concept of emergent complexity from very simple rules. You can see it here: <a href=\"http://romualdhalasz.com/flash/life/\" target=\"_blank\">demo</a>.</p><p>Here is the Wikipedia entry, for a more detailed description: <a href=\"http://en.wikipedia.org/wiki/Conway's_Game_of_Life\" target=\"_blank\">Conway's_Game_of_Life</a></p><p>For a oh-so-very detailed description of the implementation and algorithms used, please see this entry: <a href=\"http://romihalasz.blogspot.ro/2011/01/conways-game-of-life-more-natural.html\" target=\"_blank\">Conway implementation</a></p>",
+		"image": "http://romualdhalasz.com/new/img/prj/conway.png",
+		"type": "GAME",
+		"slug": "conway_game_life"
+	}, {
+		"title": "Mastermind",
+		"description": "<p>Mastermind is a classic puzzle game. The user has to determine a color combination, by following clues. The combination consists of four colors, and when a user enters a solution candidate, the computer will return a set of white and black marbles for the user to compare against the true combination.</p><p>White marbles represent colors present in the initial combination, but on a different position.<br />Black marbles represent colors positioned correctly. Since there are four colors in the initial combination, the goal of the game can be stated as forming a combination which yield four black marbles.</p><p>You can test your skills here: <a href=\"http://romualdhalasz.com/flash/mastermind/\" target=\"_blank\">Mastermind</a></p><p>Developed using Flex and the Spicelib Parsley framework.</p>",
+		"image": "http://romualdhalasz.com/new/img/prj/mind.png",
+		"type": "GAME",
+		"slug": "mastermind"
+	}, {
+		"title": "Lazy Monkeys App",
+		"description": "<p>A Flash application, built using GoogleMaps Flash API. This project was developed for a hostel in Amsterdam. Its purpose was to offer useful information to potential tourists, in a very intuitive way. It allows users to filter relevant locations, by type.</p><p>It is implemented in Flex, using the <a href=\"http://www.spicefactory.org/parsley/\" target=\"_blank\">Spicelib Parsley</a> framework.</p><p>You can see the latest version here: <a href=\"http://www.lazymonkeys.net/maps/index.html\" target=\"_blank\">Lazy Monkeys App</a></p>",
+		"image": "http://romualdhalasz.com/new/img/prj/maps2.jpg",
+		"type": "SOFT",
+		"slug": "lazy_monkeys"
+	}, {
+		"title": "Lazy Monkeys App v2",
+		"description": "<p>After the Lazy Monkeys App went live, I had a few ideas about improving the application and I started working. However, the project was later set on stand-by. But, since the prospect of continuing development exists, I decided to keep it.</p><p>It is also implemented using Flex and the <a href=\"http://www.spicefactory.org/parsley/\" target=\"_blank\">Spicelib Parsley</a> framework.</p><p>You can see the latest version here: <a href=\"http://romualdhalasz.com/flash/map/\" target=\"_blank\">Lazy Monkeys App v2</a></p>",
+		"image": "http://romualdhalasz.com/new/img/prj/maps2.jpg",
+		"type": "SOFT",
+		"slug": "lazy_monkeys2"
+	}, {
+		"title": "Anca Cernoschi Photography Flash",
+		"description": "<p>This application was built to promote one of my friend's photography works.</p><p>Initially, I chose Flash since I had a lot of experience in developing web applications. The idea was to develop a light-weight app, which would load the data from an external server. This way, the two application parts can be developed independently, increasing the overall flexibility.</p><p>Later on however, I decided to reimplement the client using HTML/JavaScript, since Flash is not particularly well handled on mobile devices.</p><p>You can see the application in it current state here: <a href=\"http://romualdhalasz.com/flash/gallery/\" target=\"_blank\">Flash Gallery</a></p>",
+		"image": "http://romualdhalasz.com/new/img/prj/anca3.jpg",
+		"type": "SOFT",
+		"slug": "anca_cernoschi_flash"
+	}
+]
+
+
+
+
+
+
+
