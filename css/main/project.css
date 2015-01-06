@@ -39,3 +39,12 @@
 #game-heading {
 	background-color: #4CC3D9; /*#4CC3D9;*/
 }
+
+.project-item {
+	padding: 5px !important;
+	margin-bottom: 5px !important;
+}
+
+.read-more {
+	margin-right: 0 !important;
+}
