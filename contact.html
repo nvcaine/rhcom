@@ -20,7 +20,6 @@
 
 	<link href="../css/items/items.css" rel="stylesheet">
 
-
 	<link rel="icon" type="image/png" href="../assets/images/rh3.png"/>
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -31,17 +30,15 @@
 </head>
 
 <body>
-	<!--<div id="body-background"></div>-->
 
-	<header>
-	</header>
+	<header></header>
 
-	<div class="container">
+	<div id="wrap" class="container">
 
 		<div class="heading">Contact</div>
 
 		<div class="row">
-			<div class="col-sm-5 col-md-4 col-sm-offset-1">
+			<div class="col-sm-5 col-md-4 col-sm-offset-1 contact-text">
 				<p>Hi there! Thank you for visiting. I hope you enjoyed my website.</p>
 
 				<p>If you'd like to get in touch with me, please feel free to use next form.</p>
@@ -72,7 +69,7 @@
 			</div>
 
 			<div class="col-sm-4 col-sm-offset-1 col-md-offset-2">
-				<form>
+				<form id="contact-form">
 					<div class="input-group contact-group">
 						<input id="contact-name" type="text" class="form-control" placeholder="Name">
 					</div>
@@ -85,15 +82,19 @@
 						<textarea id="contact-message" class="form-control" placeholder="Message"></textarea>
 					</div>
 
-					<button class="btn btn-default">Send</button>
-					<button class="btn btn-default">Clear</button>
+					<button class="btn btn-default">
+						<span class="glyphicon glyphicon-chevron-right"></span> Send
+					</button>
+
+					<button class="btn btn-default contact-button">
+						<span class="glyphicon glyphicon-remove"></span> Clear
+					</button>
 				</form>
 			</div>
 		</div>
 	</div>
 
-	<footer>
-	</footer>
+	<footer></footer>
 
 	<!-- modules -->
 	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

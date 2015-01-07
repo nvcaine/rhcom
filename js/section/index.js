@@ -41,6 +41,8 @@ $( function() {
 
 	$('#myCarousel').html(sliderTemplate({slides: sliderData}));
 
+	$('#sidebar').html(sidebarItemTemplate({items: sidebarItems}));
+
 	$('.carousel-inner .item').first().addClass('active');
 
 	$('#feature').append(featureItemTemplate({features: features}));

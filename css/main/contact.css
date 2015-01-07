@@ -1,8 +1,21 @@
 .contact-group {
-	width: 100% !important;
+	border: 1px solid #DD8837;
 	margin-bottom: 10px;
+	width: 100% !important;
 }
 
 #contact-message {
 	height: 150px;
+}
+
+#contact-form button {
+	background-color: #DD8837;
+	border: 1px solid #505050;
+}
+
+@media (max-width: 767px) {
+	.contact-text {
+		text-align: center;
+		margin-bottom: 40px;
+	}
 }

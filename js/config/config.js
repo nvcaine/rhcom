@@ -1,4 +1,4 @@
-var appURL = 'http://localhost/rhc2/';
+var appURL = 'http://localhost/web/rhcom/';
 
 var mainMenuOptions = [
 	//{label: 'Home', url: appURL, index: 1},
