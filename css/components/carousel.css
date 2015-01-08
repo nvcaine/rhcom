@@ -35,7 +35,7 @@
 }
 /* Carousel base class */
 .carousel {
-  height: 300px;
+  height: 450px;
   background-color: #797979;
   /*margin-bottom: 60px;*/
 }
@@ -54,12 +54,12 @@
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 300px;
+  height: 450px;
   background-color: #787878; /*#777;*/
 }
 
 .carousel-inner {
-  border-bottom: 1px solid #CFCFCF;
+  border-bottom: 1px solid #505050;
 }
 
 .carousel-inner > .item > img {
@@ -67,7 +67,7 @@
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 300px;
+  height: 450px;
 }
 
 .slider-thumb {
@@ -88,6 +88,10 @@
 
 .slider-text, .slider-img {
   visibility: hidden;
+}
+
+.slider-item {
+	margin-top: 75px;
 }
 
 .active .slider-text, .active .slider-img {

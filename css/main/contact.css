@@ -1,5 +1,5 @@
 .contact-group {
-	border: 1px solid #DD8837;
+	/*border: 1px solid #DD8837;*/
 	margin-bottom: 10px;
 	width: 100% !important;
 }
@@ -9,8 +9,8 @@
 }
 
 #contact-form button {
-	background-color: #DD8837;
-	border: 1px solid #505050;
+	/*background-color: #DD8837;
+	border: 1px solid #505050;*/
 }
 
 @media (max-width: 767px) {

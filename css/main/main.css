@@ -77,9 +77,14 @@ footer {
 }
 
 .heading {
-	color: #999999;
+	color: #505050;
 	font-family: 'Arvil-sans';
 	font-size: 40px;
-	margin: 65px 0 40px 0;
+	margin: 40px 0;
 	text-align: center;
+}
+
+.social img {
+	margin: 0 10px;
+	height: 20px;
 }

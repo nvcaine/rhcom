@@ -12,7 +12,7 @@ var slider =
 	'<div class="item" style="background-color:{{color}}">' +
 		'<div class="carousel-caption">' +
 			'<div class="container">' +
-				'<div class="row">' +
+				'<div class="row slider-item">' +
 					'<div class="col-md-4 col-md-offset-1 col-sm-5 image-container">' +
 						'<img src="{{image}}" alt="{{alt}}" class="slider-img animated bounceInDown">' + // animated bounceInDown
 					'</div>' +
