@@ -90,10 +90,6 @@
   visibility: hidden;
 }
 
-.slider-item {
-	margin-top: 75px;
-}
-
 .active .slider-text, .active .slider-img {
   visibility: visible !important;
 }
@@ -187,7 +183,7 @@
   }
 }
 
-@media (max-width: 762px) {
+@media (max-width: 767px) {
   .carousel-caption {
     top: 0;
     text-align: center;
@@ -213,10 +209,14 @@
     }
 }
 
-@media (min-width:762px) {
+@media (min-width:768px) {
 	.image-container {
 		margin-top: 50px;
 	}
+  
+  .slider-item {
+    margin-top: 75px;
+  }
 }
 
 @media (min-width:1200px) {

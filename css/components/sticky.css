@@ -1,25 +1,17 @@
 html {
-	height: 100% !important;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
-	height: 100% !important;
+  /* Margin bottom by footer height */
+  margin-bottom: 135px;
 }
 
-#wrap {
-	min-height: 100% !important;
-	height: auto !important;
-	height: 100%;
-	margin: 0 0 -136px 0;
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  /*height: 61px;*/
 }
-
-/*footer {
-	background-color:#EEEEEE;
-}*/
-
-/*@media (max-width: 767px) {
-	footer {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-}*/
