@@ -3,7 +3,7 @@ var sliderData = [
 		alt: 'Web',
 		image: appURL + 'assets/images/web.png',
 		heading: 'Web Applications',
-		text: 'Websites and HTML/JS apps that run in the browser.',
+		text: 'Websites and HTML/JS apps that mostly run in a browser.',
 		label: 'See more',
 		btn_class: 'warning',
 		color: 'rgba(241, 103, 69, 0.75)'//'#F16745'
@@ -33,7 +33,8 @@ var features = [
 		paragraphs: [
 			{text: 'A client redesign for an existent application. Since the data is managed by a JSON server, the client can be changed without affecting it.'},
 			{text: 'The initial version used media queries for a responsive layout, but the second one uses Bootstrap 3 for layout, and Handlebars for templating.'},
-		]
+		],
+		url: appURL + 'view/anca_client/'
 	}
 ];
 

@@ -29,6 +29,9 @@ $( function() {
 		});
 
 		$('#accordion').html(sidebarTemplate({panels: panels}));
+
+		$('#sidebar').html(sidebarItemTemplate({items: sidebarItems}));
+
 		/*$('#web-heading, #soft-heading, #game-heading').on('shown.bs.collapse', function(e) {
 			var toggleSigns = $('#accordion').find('.toggle');
 			toggleSigns.removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down')

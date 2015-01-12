@@ -16,7 +16,7 @@ var featureItem =
 		'{{/each}}' +
 
 		'<div class="pull-right read-more">' +
-			'<a href="#"><span class="index">&raquo;</span> Read More</a>' +
+			'<a href="{{url}}"><span class="index">&raquo;</span> Read More</a>' +
 		'</div>' +
 	'</div>' +
 
